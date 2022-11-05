@@ -1,0 +1,612 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    z-index: -2;
+    background-color: rgb(244, 244, 244);
+}
+
+/* TOP NAVBAR */
+#toptop {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+#topnav {
+    width: 100%;
+    height: 1.8rem;
+    background-color: rgb(13, 13, 13);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#topnav div {
+    padding: 0rem 8rem;
+}
+
+#topnav p {
+    color: white;
+    font-size: 0.7rem;
+
+    letter-spacing: 3px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+
+}
+
+#mainnav {
+
+    width: 100%;
+    height: 7rem;
+    background-color: aliceblue;
+    display: flex;
+}
+
+#mnav-top {
+
+    display: flex;
+    width: 100%;
+
+    height: 1rem;
+    background-color: aliceblue;
+    flex-direction: row-reverse;
+
+}
+
+#mnav-top p {
+    padding: 0.5rem 0.5rem;
+    color: rgb(15, 15, 15);
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+#mnav-bot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+#logo img {
+    height: 60px;
+    width: 60px;
+    margin: 0rem 2rem;
+}
+
+#mnav-bot ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+   
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+#mnav-bot ul li{
+    border: 2px solid rgba(0, 0, 0, 0);
+    padding: 0.35em 0em;
+    margin: 0em 0.98em;
+}
+
+#mnav-bot ul li:hover{
+    border: 2px solid black;
+    padding: 0.35em 0em;
+    margin: 0em 0.98em;
+}
+
+#mnav-bot ul li a {
+    padding: 0rem 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    letter-spacing: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+#search-here {
+    height: 2rem;
+    width: 12rem;
+    margin-top: 1rem;
+
+}
+
+#search-here input {
+    height: 2rem;
+    border: none;
+    width: 95%;
+    background-color: rgb(218, 218, 218);
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+#search-here img {
+    margin: -4px -24px;
+}
+
+#search-here input:hover {
+    border: 2px solid black;
+}
+
+.profile {
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+}
+
+/* HOME MAIN 1 */
+
+#homemain1 {
+    width: 100%;
+    height: 40rem;
+    position: relative;
+
+    padding: 7rem 0rem;
+
+}
+
+#homemain1::before {
+    content: " ";
+    background-image: url("images/webpic1.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100% 100%;
+    /* this waited me for lot off  */
+    display: block;
+    left: 0;
+    height: 87%;
+    width: 100%;
+    z-index: -1;
+}
+
+#mh-con {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10rem 5rem;
+}
+
+#mh-con div {
+    padding: 5px 3px;
+}
+
+.hm-btn {
+    width: 14rem;
+    height: 4rem;
+
+}
+
+#hm-btn2 .real-btn {
+    margin: 0rem 2rem;
+}
+
+#mh-con-p1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#mh-con-p2 {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.real-btn {
+    width: 10rem;
+    height: 2.5rem;
+    padding: 0px 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(19, 18, 17);
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+.real-btn a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.real-btn::before {
+    content: " ";
+    border: 2px solid black;
+    margin: 0rem -4.8rem;
+    position: absolute;
+    padding: 1.4rem 5rem;
+}
+
+.real-btn p {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    padding-top: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+
+}
+
+
+/* HOME MAIN 2 */
+
+#home-main2 {
+    width: 100%;
+    height: 40rem;
+
+}
+
+#home-main2::before {
+    content: " ";
+    background-image: url("images/pexels-frans-van-heerden-847371.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100% 100%;
+    /* this waited me for lot off  */
+    display: block;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#logo2 {
+    margin: 2rem 2rem;
+    display: inline;
+    padding: 0rem 0rem;
+}
+
+#nav2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#brand {
+    font-size: 4rem;
+    color: #e8e8e8;
+    letter-spacing: 3px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+
+}
+
+#nav22 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#nav22 div {
+    padding: 1.5rem 4rem;
+    width: 34rem;
+    background-image: linear-gradient(to right, rgb(57 57 57 / 85%), rgb(111 111 111 / 28%), rgb(173 173 173 / 3%));
+}
+
+.linav-p1 {
+    font-size: 4rem;
+    color: #e8e8e8;
+
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.linav-p2 {
+    font-size: 1.5rem;
+    color: #131313;
+    letter-spacing: 3px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.linav-p2:hover {
+    text-decoration: underline;
+    text-shadow: #ffd9d9;
+}
+
+.linav {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0rem 0rem;
+}
+
+
+/* HOME MAIN 3 */
+#home-main3 {
+    width: 100%;
+    height: 106rem;
+    margin-top: 6rem;
+    background-color: #e8e8e8;
+}
+
+#hm3-head p {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    padding: 2rem 33rem;
+
+}
+
+#hm3-nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0rem 25rem;
+    align-content: stretch;
+}
+
+#hm3-nav1 div {
+    padding: 0.5rem 2.5rem;
+    border: 1px solid rgb(71, 71, 71);
+
+}
+
+#hm3-nav1 div:hover {
+
+    border: 1.5px solid rgb(53, 53, 53);
+}
+
+#hm3-nav1 div a {
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: #131313;
+}
+
+.hm3-nav1-li p {
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+#home-main3 h2 {
+    font-size: 2.5rem;
+    letter-spacing: 0.25rem;
+    font-family: 'Oswald', sans-serif;
+
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+#hm3-cards1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem 2rem;
+    justify-content: space-evenly;
+
+}
+
+.hm3-card {
+    width: 26rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd9d9;
+    text-align: center;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+}
+
+.hm3-card p {
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1c1c1c;
+}
+
+#cd1 {
+    background-image: url("images/men1.webp");
+}
+
+#cd2 {
+    background-image: url("images/women2.jpg");
+}
+
+#cd3 {
+    background-image: url("images/kid1.webp");
+}
+
+.hm3-cards2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0rem 4rem;
+}
+
+.hm3-cd2 {
+    width: 15.5rem;
+    height: 21rem;
+    /* background-color:aquamarine; */
+
+}
+
+.hm3-cd2 img {
+    float: right;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.hm3-cd2 {
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 16rem;
+    z-index: 1;
+    background-size: 100% 100%;
+    display: block;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.hm3-cd2:hover {
+    border: 2px solid black;
+}
+
+#hm3-cds1 {
+    background-image: url("images/sh1.webp");
+}
+
+#hm3-cds2 {
+    background-image: url("images/sh2.webp");
+}
+
+#hm3-cds3 {
+    background-image: url("images/sh3.webp");
+}
+
+#hm3-cds4 {
+    background-image: url("images/sh4.webp");
+}
+
+#hm3-cds5 {
+    background-image: url("images/sh5.webp");
+}
+
+.cd2-base1 {
+    border: 2px solid rgb(43 33 33 / 8%);
+    height: 6rem;
+    background-color: #eceff1;
+}
+
+.base1-p1 {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1c1c1c;
+}
+
+.base1-p2 {
+    font-size: 0.8rem;
+    padding: 0rem 1rem;
+    font-family: 'Oswald', sans-serif;
+    color: #5f5f5f;
+}
+
+#hm4-cds1 {
+    background-image: url("images/sh6.webp");
+}
+
+#hm4-cds2 {
+    background-image: url("images/sh7.webp");
+}
+
+#hm4-cds3 {
+    background-image: url("images/sh8.webp");
+}
+
+#hm4-cds4 {
+    background-image: url("images/sh9.webp");
+}
+
+#hm4-cds5 {
+    background-image: url("images/sh10.webp");
+}
+
+/* FOOTER 1 */
+
+#f1-b1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 34rem;
+    background-color: #d7d7d7;
+}
+
+#f1-b1 h2 {
+    font-size: 1.7rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    padding: 0rem 8rem;
+
+}
+
+#f1-b1 p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+    color: #7a5959;
+    padding: 0rem 8rem;
+}
+
+#f1-b2 {
+    width: 100%;
+    height: 10rem;
+    background-color: #fff53c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#f1-b2 div{
+    padding: 0rem 2rem;
+}
+#f1-b2 p{
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight:bolder;
+ }
+
+
+ #f1-b2 button{
+    width: 10.3rem;
+    height: 3.5rem;
+ }
+
+ #f1-b2 button h5{
+    font-size: 1rem;
+ }
+ #f1-b2 button::before{
+   
+    margin: -0.5rem -4.8rem;
+ }
+ #f1-b3 {
+    width: 100%;
+    height: 15rem;
+    background-color: #9c9c9c;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+ }
+#f1-b3 h2{
+    font-size: 1.7rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+#f1-b3 p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    color: #383838;
+}
+
+/* UTILITY CLASSES */
+.pfont {
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    font-weight: 900;
+
+}
